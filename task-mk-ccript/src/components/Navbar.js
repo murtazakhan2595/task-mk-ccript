@@ -18,14 +18,13 @@ const Navbar = () => {
           </div>
         </Link>
         <nav>
-          {user && (
             <div className="user-back-contianer">
               {/* <span>{user.data.user.name}</span> */}
               <button onClick={handleClick}>
                 <img src="/back-button.jpeg" alt="back button" />
               </button>
             </div>
-          )}
+          
         </nav>
       </div>
     </header>
